@@ -1,0 +1,67 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.md-panel {
+    background: #fff;
+    border: #a2a2a2;
+    padding: 15px;
+    border: #a2a2a2 solid 1px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.md-row {
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+
+.md-col-10 {
+    width: 10%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.md-col-30 {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.md-inline {
+    display: inline-flex;
+}
+.md-form-label {
+    margin: auto;
+    width: 100px;
+}
+
+#gpm-analytics-div .md-input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.daterange-div {
+    width: 90%;
+}
+
+.memberships-div, .products-div {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.chart {
+  width: 100%;
+  min-height: 450px;
+}
+.row {
+  margin:0 !important;
+}
+@media only screen and (min-width: 992px) {
+
+    .daterange-div, .memberships-div, .products-div {
+        width: 30%;
+    }
+
+}
